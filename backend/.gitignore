@@ -1,0 +1,50 @@
+# -----------------------------
+# Python
+# -----------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# -----------------------------
+# Virtualenv / Poetry
+# -----------------------------
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# -----------------------------
+# Django
+# -----------------------------
+*.log
+*.pot
+*.pyc
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+
+# -----------------------------
+# Django migrations (optionnel)
+# -----------------------------
+*/migrations/*.py
+!*/migrations/__init__.py
+
+# -----------------------------
+# IDE / Editor
+# -----------------------------
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# -----------------------------
+# Secrets / Env
+# -----------------------------
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
